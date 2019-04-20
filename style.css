@@ -1,0 +1,77 @@
+body{
+	background-image: url(wall.jpg);
+	margin: 0px;
+}
+
+
+#logo{
+	font-family: monospace;
+	font-size: 40px;
+	float: left;
+	padding-left: 100px;
+}
+
+ul{
+	list-style: none;
+	display: inline;
+}
+
+#first_section{
+	padding-left: 450px;
+	height: 150px;
+	width: 700px;
+	text-align: center;
+	display: inline-block;
+}
+
+.nav{
+	font-family: monospace;
+	float: right;
+	padding: 10px;
+	padding-right: 30px;
+}
+
+#logo_text{
+	font-size: 50px;
+	text-align: center;
+}
+
+.btn{
+	width: 180px;
+	height: 50px;
+	border-radius: 40px;
+	border-color: black;
+	box-shadow: 50px;
+	background-color: rgba(0,0,0,.20);
+	font-size: 20px;
+	color: #adadad;
+	cursor: pointer;
+}
+
+#quote{
+	padding-top: 25px;
+}
+
+a{
+	color: black;
+}
+
+#weather_section{
+	background-image: url(sky.jpg);
+	height: 1000px;
+	width: 100%;
+}
+
+#forest{
+	padding-top: 250px;
+	padding-left: 250px;
+	height: 700px;
+	width: 700px;
+	text-align: center;
+	display: inline-block;
+}
+
+#forest_text{
+	padding-top: 150px;
+}
+
