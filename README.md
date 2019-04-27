@@ -1,2 +1,2 @@
 # Ranute
-a front end website about nature!
+updated with bootstrap
