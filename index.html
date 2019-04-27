@@ -2,8 +2,13 @@
 <html>
 <head>
 	<title>Ranute</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
 </head>
 
 <body>
@@ -11,37 +16,79 @@
 
 
 <!-- Nav bar-->
-<div>
-	<ul>
-		<li><h1 id="logo">Ranute</h1></li>
-		<li><a href="#"><h2 class="nav">Pricing</h2></a></li>
-		<li><a href="#"><h2 class="nav">Sign up</h2></a></li>
-	</ul>
+
+<div class="row">
+ <div class="col-sm-10 logo"><h1>Ranute</h1></div>
+  <div class="col-sm-1 navi"><a href="#"><h2>Pricing</h2></a></div>
+  <div class="col-sm-1 navi"><a href="#"><h2>Sign up</h2></a></div>
+</div>
+<div class="row">
 </div>
 
 
 <!-- Forest -->
-<div id="forest">
-	<div id="forest_text">
+<div class="container">
+	<div class="col-sm-12 forest">
 		<h1 id="logo_text">The sounds of nature</h1>
 	<h2 id="texty">Lorem ipsum dolor sit amet, consectetur adipis.<br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit sit dol mi arlna.</h2>
 	<button class="btn" id="start_btn"><b>Start</b></button>
-	<h2 id="quote">“The mountains are calling and I must go.”<br> – John Muir</h2>
-
+	<h3 id="quote">"The mountains are calling and I must go."<br>John Muir</h3>
 	</div>
 </div>
 
 
 
 
-<!-- Weather-->
-<div id="weather_section">
 
+
+<!-- info-->
+<div class="container-fluid" id="info">
+	<div class="row h-75 info_row">
+		<div class="col-sm-3 info_box" id = test>
+			<h1>Plan 1</h1>
+			<hr>
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis vel augue euismod hendrerit vel eu erat. Mauris in diam eget leo sollicitudin scelerisque. Curabitur fringilla consequat tellus vel imperdiet.</h4>
+			<button class="btn btn-dark mybtn" >Click me!</button>
+			<hr>
+		</div>
+
+		<div class="col-sm-3 info_box">
+			<h1>Plan 2</h1>
+			<hr>
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis vel augue euismod hendrerit vel eu erat. Mauris in diam eget leo sollicitudin scelerisque. Curabitur fringilla consequat tellus vel imperdiet.</h4>
+			<button class="btn btn-dark mybtn">Click me!</button>
+			<hr>
+		</div>
+
+		<div class="col-sm-3 info_box">
+			<h1>Plan 3</h1>
+			<hr>
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis vel augue euismod hendrerit vel eu erat. Mauris in diam eget leo sollicitudin scelerisque. Curabitur fringilla consequat tellus vel imperdiet.</h4>
+			<button class="btn btn-dark mybtn">Click me!</button>
+			<hr>
+			
+		</div>
+	</div>
 </div>
 	
-<footer id="footer"></footer>
+<footer class="page-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<p>Contact us</p>
+			</div>
 
+			<div class="col-sm-4">
+				<p>Find it on Facebook!</p>
+			</div>
+
+			<div class="col-sm-4">
+				<p>Copyright 2018</p>
+			</div>
+		</div>
+	</div>
+</footer>
 
 <script src="myscript.js"></script>
 
